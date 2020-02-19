@@ -31,3 +31,13 @@ snippet header
 	###CODE SECTION 1
 	###
 	##################
+	
+snippet ins
+	install.packages(c("${1:package}"))	
+	
+snippet sec
+	##################
+	###
+	###CODE SECTION
+	###
+	##################
